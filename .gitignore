@@ -10,3 +10,29 @@ wheels/
 # Virtual environments
 .venv
 .
+
+# LangGraph specific
+.langgraph/          # Dossier de cache LangGraph
+.langgraph_api/      # Dossier d'état de l'API
+*.log                # Fichiers de log
+*.pid                # Fichiers de processus
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb

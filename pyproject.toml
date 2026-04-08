@@ -1,0 +1,13 @@
+[project]
+name = "tp3-agent"
+version = "0.1.0"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langgraph",
+    "python-dotenv",
+    "langchain-community",
+    "chromadb",
+    "pypdf2",
+    "langchain-text-splitters",
+]
