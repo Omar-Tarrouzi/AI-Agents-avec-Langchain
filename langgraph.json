@@ -1,7 +1,8 @@
 {
-    "dependencies": ["langchain_openai", "."],
+    "dependencies": ["."],
     "graphs": {
-        "my_agent_rag": "./agentic_rag.py:agent"
+        "my_agent_rag": "./agentic_rag.py:graph"
     },
-    "env": "./.env"
+    "env": ".env",
+    "python_version": "3.11"
 }
